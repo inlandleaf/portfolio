@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:url" content="https://inlandleaf.github.io/portfolio/">
     <meta property="og:title" content="Zachary A. Dana">
-    <meta property="og:image" content="https://inlandleaf.github.io/portfolio//img/baskin_bio_pic.png">
+    <meta property="og:image" content="https://inlandleaf.github.io/portfolio//img/best_sqr.jpg">
     <link rel="shortcut icon" type="image/png" href="me_icon.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -18,28 +18,21 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="root">
     <div class="content-wrapper">
         <div class="container mt-5">
             <div class="d-flex mb-3">
                 <!-- Left Column -->
                 <div class="left-column">
                     <!-- Profile Picture -->
-                    <img class="rounded profile-image mx-auto d-block" src="img/baskin_bio_pic.png" alt="Zachary Dana">
+                    <img class="rounded profile-image mx-auto d-block" src="img/best_custom.jpg" alt="Zachary Dana">
                     <div class="profile-info">
                         <div class="row justify-content-center">
                             <div class="col-auto">
-                                <i class="fa fa-file-text"></i> <a href="files/tech_resume_update.pdf" target="_blank">Resume</a>
+                                <i class="fa fa-file-pdf-o"></i> <a href="files/tech_resume_update.pdf" target="_blank">Resume</a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa fa-file-text"></i> <a href="files/tech_resume_update.pdf" target="_blank">Curriculum Vitae</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-info">
-                        <div class="row justify-content-center">
-                            <div class="col-auto">
-                                <i class="fa fa-envelope"></i> <a href="mailto:zdana@ucsc.edu">zdana@ucsc.edu</a>
+                                <i class="fa fa-file-pdf-o"></i> <a href="files/tech_resume_update.pdf" target="_blank">Curriculum Vitae</a>
                             </div>
                         </div>
                     </div>
@@ -54,23 +47,31 @@
                 <!-- Right Column -->
                 <div class="right-column">
                     <!-- Title and Divider -->
-                    <div class="title-container">
-                        <h1 class="right_column">Zachary Dana</h1>
-                        <hr class="name-divider w-100">
+                    <div class="title-container d-flex justify-content-between align-items-center">
+                        <h1 class="right_column">Z<span class="small-caps">ACHARY</span> A. D<span class="med-caps">ANA</span></h1>
+                        <div class="contact-info">
+                            <div class="row justify-content-left">
+                                <div class="col-auto">
+                                    <i class="fa fa-envelope"></i> <a href="mailto:zdana@ucsc.edu">zdana@ucsc.edu</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <hr class="name-divider w-100">
                     <p>
-                        I am a Data Scientist & Engineering Intern at <a href="https://www.linkedin.com/company/vironix/" target="_blank">Vironix Health</a>, where I focus on research and development of machine learning applications for chronic disease risk stratification. My recent projects involve integrating deep learning and survival analysis techniques to enhance early intervention and novel risk factor identification in chronic kidney disease (CKD). In addition to my technical roles, I represented the company at <a href="https://www.siam.org/about-us/" target="_blank">SIAM's (Society for Industrial and Applied Mathematics)</a> annually hosted <a href="https://www.siam.org/conferences-events/workshops/2024-mathematical-problems-in-industry-workshop/" target="_blank">2024 MPI (Mathematical Problems in Industry)</a> conference, which addresses diverse problems in science and industry entailing solutions from basic physical modeling to advanced computation and data analysis.
+                        I am a Data Scientist & Engineering Intern at <a href="https://www.linkedin.com/company/vironix/" target="_blank">Vironix Health</a>, where I focus on research and development of machine learning applications for chronic disease risk stratification. My recent projects involve integrating deep learning and survival analysis techniques for enhanced early intervention and novel risk factor identification in chronic kidney disease. In addition to my technical roles, I represented the company at <a href="https://www.siam.org/about-us/" target="_blank">SIAM's (Society for Industrial and Applied Mathematics)</a> annually hosted <a href="https://www.siam.org/conferences-events/workshops/2024-mathematical-problems-in-industry-workshop/" target="_blank">2024 MPI (Mathematical Problems in Industry)</a> conference, which addresses diverse problems in science and industry entailing solutions from basic physical modeling to advanced computation and data analysis.
                     </p>
                     <p>
                         Previously, I received an undergraduate degree in Network and Digital Technology from the <a href="https://engineering.ucsc.edu/" target="_blank">Baskin School of Engineering</a> at the <a href="https://www.ucsc.edu/" target="_blank">University of California Santa Cruz</a>, where I pursued coursework in both computer science and mathematics. My studies included software engineering, algorithms, machine learning, computer systems design, architecture, and networks, as well as linear algebra, calculus, discrete mathematics, and statistics.
                     </p>
                 </div>
             </div>
+            <!-- Publications Section -->
             <hr>
             <div class="row" id="publications">
                 <div class="col">
                     <h2>Publications</h2>
-                    <ul class="pl">
+                    <ul class="custom-list">
                         <li>
                             <a href="https://www.siam.org/media/0ktpmkg0/mpi2024_vironix-1.pdf" target="_blank">
                                 <b>Analyzing the Influence of Virtual Care Management on Patient Health Outcomes & Risk Stratifying Chronic Kidney Disease Patients for Stage Degeneration</b>
@@ -102,23 +103,28 @@
                                 </p>
                             </div>
                         </li>
+                        <!-- Additional publications -->
                     </ul>
                 </div>
             </div>
+
+            <!-- Projects Section -->
             <hr>
-            <div class="row">
+            <div class="row" id="projects">
                 <div class="col">
                     <h2>Projects</h2>
-                    <ul>
+                    <ul class="custom-list">
                         <li>
                             Project description here.
                         </li>
                         <li>
                             Another project description here.
                         </li>
+                        <!-- Additional projects -->
                     </ul>
                 </div>
             </div>
+            <!-- Miscellany Section -->
             <hr>
             <div class="row">
                 <div class="col">
@@ -140,9 +146,7 @@
             <div class="row justify-content-between align-items-center">
                 <!-- Left Column -->
                 <div class="col-12 col-md col-left">
-                    <p class="h5 text-muted mb-0">
-                        © Zachary Dana, 2024 (last updated 27 Oct, 2024)
-                    </p>
+                    © Zachary Dana, 2024 (last updated 27 Oct, 2024)
                 </div>
                 <!-- Right Column -->
                 <div class="col-12 col-md col-right">
